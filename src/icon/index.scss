@@ -1,0 +1,21 @@
+.icon {
+    width: 50vw;
+    height: 50vh;
+    vertical-align: middle;
+    fill: currentColor;
+    overflow: hidden;
+
+    .p {
+        stroke: red;
+        stroke-width: 5;
+        stroke-dasharray: var(--l);
+        stroke-dashoffset: var(--l);
+        animation: dash 2s forwards;
+    }
+
+    @keyframes dash {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+}

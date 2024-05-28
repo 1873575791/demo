@@ -1,0 +1,17 @@
+.App {
+    .App-nav {
+        display: flex;
+        height: 40px;
+        line-height: 40px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 20px;
+        > div {
+            margin: 0 10px;
+            cursor: pointer;
+        }
+
+        .action {
+            color: #2db7f5;
+        }
+    }
+}

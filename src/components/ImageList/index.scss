@@ -1,0 +1,17 @@
+
+
+.content {
+    --height: 120px;
+    height: var(--height);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    user-select: none;
+  }
+
+  .image-list {
+    --active-line-border-radius: 0px;
+    --active-title-color: red;
+  }

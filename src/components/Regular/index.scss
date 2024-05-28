@@ -1,0 +1,24 @@
+.testP {
+    // display: flex;
+    // img {
+    //     width: 100px;
+    //     height: 100px;
+    //     shape-outside: circle(50% at 50% 50%);
+    //     border-radius: 50%;
+    //     float: left;
+    //     // text-align: center;
+    // }
+    span {
+        background: linear-gradient(to right, red, green) no-repeat;
+        background-position: right bottom;
+        background-size: 0px 2px;
+        transition: background-size 0.3s ease-in;
+    }
+
+
+    span:hover {
+        background-position: left bottom;
+        background-size: 100% 2px;
+    }
+    
+}

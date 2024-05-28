@@ -1,0 +1,11 @@
+.canvers {
+    width: 500px;
+    height: 450px;
+    border: 1px solid red;
+}
+
+.canversBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

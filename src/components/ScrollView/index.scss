@@ -1,0 +1,25 @@
+.scroll-view {
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    border: 1px solid #000;
+    margin: 0 auto;
+
+    .box {
+        position: relative;
+
+        .render-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+
+            >div {
+                height: 41.4px;
+                text-align: center;
+                line-height: 41.4px;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}

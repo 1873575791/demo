@@ -1,0 +1,26 @@
+.text3D {
+    background: #aaa;
+    width: 100vw;
+    height: 80vh;
+}
+
+.text {
+    font-size: 100px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    z-index: 1;
+    left: 25%;
+    top: 10%;
+}
+
+.text::after {
+    content: 'DARKNESS';
+    color: #000;
+    position: absolute;
+    left: 0;
+    transform: skew(50deg) scaleY(0.5) translate(-53px, 38px);
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-mask: linear-gradient(transparent, #000 );
+}
